@@ -1,4 +1,5 @@
-res://scenes/main.tscn
-res://scenes/mob.tscn
+res://scripts/player.gd
+res://scenes/player.tscn
 res://scripts/mob.gd
 res://scripts/main.gd
+res://scenes/mob.tscn
