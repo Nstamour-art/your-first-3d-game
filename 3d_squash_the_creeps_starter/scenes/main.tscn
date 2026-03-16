@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://c6ujt274jwibv"]
 
 [ext_resource type="PackedScene" uid="uid://ceuu150fmggvr" path="res://scenes/player.tscn" id="1_o5qli"]
-[ext_resource type="Script" path="res://scripts/main.gd" id="1_sugp2"]
-[ext_resource type="PackedScene" path="res://scenes/mob.tscn" id="2_jyhfs"]
+[ext_resource type="Script" uid="uid://bqwo0jl56ugyu" path="res://scripts/main.gd" id="1_sugp2"]
+[ext_resource type="PackedScene" uid="uid://defdm2qdva75q" path="res://scenes/mob.tscn" id="2_jyhfs"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_sgp6g"]
 size = Vector3(60, 2, 60)
@@ -29,6 +29,8 @@ mob_scene = ExtResource("2_jyhfs")
 
 [node name="Ground" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+collision_layer = 4
+collision_mask = 0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
 shape = SubResource("BoxShape3D_sgp6g")
@@ -83,4 +85,5 @@ transform = Transform3D(-0.0015457107, 0, -0.9999988, 0, 1, 0, 0.9999988, 0, -0.
 wait_time = 0.5
 autostart = true
 
+[connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
