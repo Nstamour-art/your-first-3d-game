@@ -1,3 +1,8 @@
 res://scenes/main.tscn
-res://scripts/score_label.gd
+res://scenes/player.tscn
+res://scripts/player.gd
+res://scenes/mob.tscn
+res://global.res
+res://scripts/mob.gd
 res://scripts/main.gd
+res://float.tres
