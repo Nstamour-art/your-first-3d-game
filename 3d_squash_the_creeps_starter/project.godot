@@ -29,7 +29,6 @@ MusicPlayer="res://scenes/music_player.tscn"
 window/size/viewport_width=720
 window/size/viewport_height=540
 window/size/mode=3
-window/stretch/mode="viewport"
 
 [filesystem]
 
@@ -100,7 +99,7 @@ anti_aliasing/quality/msaa_3d=2
 
 project/breakpoints={}
 project/editorState=[{
-"column": 30,
+"column": 0,
 "current": true,
 "line": 53,
 "path": "res://scripts/player.gd",
@@ -111,7 +110,7 @@ project/editorState=[{
 "path": "res://scripts/mob.gd",
 "type": "file"
 }, {
-"column": 62,
+"column": 0,
 "line": 14,
 "path": "res://scripts/main.gd",
 "type": "file"
