@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773939732
+::res://::1773944898
 icon.webp::CompressedTexture2D::27118964165343846::1744386698::1773011985::1::::<><><>0<>0<>d1498e266395186d04e973f787f3596d<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
 ::res://art/::1773011987
 body.tres::StandardMaterial3D::-1::1744386698::0::1::::<><><>0<>0<><>::
@@ -13,13 +13,13 @@ pupil.tres::StandardMaterial3D::-1::1744386698::0::1::::<><><>0<>0<><>::
 ::res://fonts/::1773011985
 LICENSE.txt::TextFile::-1::1744386698::0::1::::<><><>0<>0<><>::
 Montserrat-Medium.ttf::FontFile::6505293508080888906::1744386698::1773011985::1::::<><><>0<>0<>1eb268033ecd125d99a1f1687f4c989d<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
-::res://scenes/::1773938501
+::res://scenes/::1773942800
 main.tscn::PackedScene::6990564927160216247::1773883062::0::1::::<><><>0<>0<><>::uid://ceuu150fmggvr::::res://scenes/player.tscn<>uid://bqwo0jl56ugyu::::res://scripts/main.gd<>uid://defdm2qdva75q::::res://scenes/mob.tscn<>uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf<>uid://cuxl70mbriksb::::res://scripts/score_label.gd
 mob.tscn::PackedScene::7450544337918621628::1773938317::0::1::::<><><>0<>0<><>::uid://bicorb7we351t::::res://art/mob.glb<>uid://3y3anuutrq58::::res://scripts/mob.gd
-music_player.tscn::PackedScene::8717211197418034313::1773633018::0::1::::<><><>0<>0<><>::uid://c5qpnfga41t4p::::res://art/House In a Forest Loop.ogg
-player.tscn::PackedScene::5096146682080455107::1773938501::0::1::::<><><>0<>0<><>::uid://d0ypm0v45pwdv::::res://art/player.glb<>uid://cggoe7fgglr::::res://scripts/player.gd
+music_player.tscn::PackedScene::8717211197418034313::1773941805::0::1::::<><><>0<>0<><>::uid://c5qpnfga41t4p::::res://art/House In a Forest Loop.ogg
+player.tscn::PackedScene::5096146682080455107::1773942800::0::1::::<><><>0<>0<><>::uid://d0ypm0v45pwdv::::res://art/player.glb<>uid://cggoe7fgglr::::res://scripts/player.gd<>res://animation_1.res
 ::res://scripts/::1773938416
 main.gd::GDScript::3555753666345570028::1773936924::0::1::::<>Node<><>0<>0<><>::
 mob.gd::GDScript::2016533478394229141::1773936915::0::1::::<>CharacterBody3D<><>0<>0<><>::
 player.gd::GDScript::4504515195125791::1773938416::0::1::::<>CharacterBody3D<><>0<>0<><>::
-score_label.gd::GDScript::6224825292505498749::1773631117::0::1::::<>Label<><>0<>0<><>::
+score_label.gd::GDScript::-1::1773631117::0::1::::<>Label<><>0<>0<><>::
