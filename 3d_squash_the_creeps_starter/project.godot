@@ -29,6 +29,7 @@ MusicPlayer="res://scenes/music_player.tscn"
 window/size/viewport_width=720
 window/size/viewport_height=540
 window/size/mode=3
+window/stretch/mode="canvas_items"
 
 [filesystem]
 
@@ -101,22 +102,12 @@ project/breakpoints={}
 project/editorState=[{
 "column": 0,
 "current": true,
-"line": 53,
-"path": "res://scripts/player.gd",
-"type": "file"
-}, {
-"column": 0,
-"line": 0,
+"line": 8,
 "path": "res://scripts/mob.gd",
 "type": "file"
 }, {
 "column": 0,
-"line": 14,
+"line": 2,
 "path": "res://scripts/main.gd",
-"type": "file"
-}, {
-"column": 0,
-"line": 6,
-"path": "res://scripts/score_label.gd",
 "type": "file"
 }]
